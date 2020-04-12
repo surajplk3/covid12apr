@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {% for data in datas %}
+        <p>{{data.age_group_data.url}}</p>
+        <p>{{data.statewise_test_details.url}}</p>
+        <p>{{data.individual_data.url}}</p>
+    {% endfor %}
+  </body>
+</html>
